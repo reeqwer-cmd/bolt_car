@@ -54,7 +54,7 @@ const Hero = () => {
             <a href="#cars" className="btn-primary text-lg px-8 py-4">
               Смотреть каталог
             </a>
-            <a href="#contacts" className="btn-secondary border-white text-white hover:bg-white hover:text-primary-600 text-lg px-8 py-4">
+            <a href="#contacts" className="bg-transparent border-2 border-white text-white font-semibold py-4 px-8 rounded-lg hover:bg-white hover:text-primary-600 transition-all duration-300 text-lg">
               Получить консультацию
             </a>
           </div>

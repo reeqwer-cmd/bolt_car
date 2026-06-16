@@ -54,7 +54,7 @@ const Header = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+                className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-all duration-200 ${
                   isScrolled
                     ? 'text-gray-700 hover:text-primary-600 hover:bg-primary-50'
                     : 'text-white/90 hover:text-white hover:bg-white/10'
