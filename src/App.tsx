@@ -1,0 +1,31 @@
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Categories from './components/Categories';
+import Advantages from './components/Advantages';
+import Cars from './components/Cars';
+import Services from './components/Services';
+import About from './components/About';
+import News from './components/News';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main>
+        <Hero />
+        <Categories />
+        <Advantages />
+        <Cars />
+        <Services />
+        <About />
+        <News />
+        <Contacts />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
